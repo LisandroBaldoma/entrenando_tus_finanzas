@@ -45,8 +45,8 @@
                     <!-- Navbar brand -->
                     <a class="navbar-brand mt-2 mt-lg-0" href="#">
                     <img
-                        src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-                        height="15"
+                        src="/img/logo.jpg"
+                        height="40"
                         alt="MDB Logo"
                         loading="lazy"
                     />
@@ -288,6 +288,9 @@
         type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"
         ></script>
+
+
+
 
     </body>
 </html>
