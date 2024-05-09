@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\panel\AdminController;
 use App\Http\Controllers\UsuariosController;
 
 use Illuminate\Support\Facades\Route;
@@ -17,3 +18,8 @@ Route::get('/contdown', function () {
 
 Route::get('/contdown/formnovedades', 'App\Http\Controllers\Sectionblades@contdownFormulario')->name('contdown.formulario');
 
+//ADMIN
+
+Route::prefix('admin')->group(function(){
+    Route::get('/admin',[AdminController::class, 'home']);
+});
