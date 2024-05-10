@@ -94,7 +94,8 @@
             <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
               <div class="d-flex justify-content-center align-items-center h-100">
                 <div class="text-white px-4" data-mdb-theme="dark">
-                  <h1 class="mb-3">Proximamente...!</h1>
+                  <h1 class="mb-3">Entrenando tus finanzas</h1>
+                  <h2 class="mb-3">Proximamente...!</h2>
 
                   <!-- Time Counter -->
                   <h3 id="time-counter" class="border border-light my-4 p-4"></h3>
