@@ -6,7 +6,7 @@ use App\Http\Controllers\UsuariosController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('sections.home');
+    return view('sections.contdown');
 });
 
 Route::get('/membresia', function () {
@@ -20,6 +20,6 @@ Route::get('/contdown/formnovedades', 'App\Http\Controllers\Sectionblades@contdo
 
 //ADMIN
 
-Route::prefix('admin')->group(function(){
+// Route::prefix('admin')->group(function(){
     Route::get('/admin',[AdminController::class, 'home']);
-});
+// });

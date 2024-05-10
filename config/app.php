@@ -97,7 +97,9 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
+    // api key para produccion se obtiene del .env y debe ir en produccion "/341BBKtYrIWGFHeIclf1ougLZWDB8Y0kVQA7H6AFUI="
     'key' => env('APP_KEY'),
+    // 'key' => env('APP_KEY', base64_decode('/341BBKtYrIWGFHeIclf1ougLZWDB8Y0kVQA7H6AFUI=')),
 
     'previous_keys' => [
         ...array_filter(
