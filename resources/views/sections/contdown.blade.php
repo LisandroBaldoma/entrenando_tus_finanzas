@@ -101,10 +101,10 @@
 
                   <p>Estamos trabajando para terminar el sitio.</p>
 
-                  <p>Until then have a look at our Free Bootstrap 5 tutorials</p>
+                  {{-- <p>Until then have a look at our Free Bootstrap 5 tutorials</p> --}}
 
                   <a class="btn btn-outline-light btn-lg m-2" href="#" role="button" data-mdb-ripple-init
-                    rel="nofollow" target="_blank">Start tutorial</a>
+                    rel="nofollow" target="_blank">Comenzar</a>
                   {{-- <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank" data-mdb-ripple-init
                     role="button">Download MDB UI KIT</a> --}}
                 </div>
@@ -125,9 +125,7 @@
                   <div>
                     <h4><strong>Subscribe para recibir novedades </strong></h4>
                     <p class="text-muted">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
-                      eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
-                      sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
+                      Pronto novedades!
                     </p>
                   </div>
                 </div>
