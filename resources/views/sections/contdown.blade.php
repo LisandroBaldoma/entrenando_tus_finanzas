@@ -104,7 +104,7 @@
 
                   {{-- <p>Until then have a look at our Free Bootstrap 5 tutorials</p> --}}
 
-                  <a class="btn btn-outline-light btn-lg m-2" href="#" role="button" data-mdb-ripple-init
+                  <a class="btn btn-outline-light btn-lg m-2" href="/home" role="button" data-mdb-ripple-init
                     rel="nofollow" target="_blank">Comenzar</a>
                   {{-- <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank" data-mdb-ripple-init
                     role="button">Download MDB UI KIT</a> --}}
