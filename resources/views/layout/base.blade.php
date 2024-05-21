@@ -47,11 +47,11 @@
         };
     </script>
     </head>
-    <body class='bg-secondary'>
-
+    {{-- <body style='background-color: #559AB7;'> --}}
+        <body class="bg-info-200">
         <!-- Main navigation container -->
         <nav
-            class="flex-no-wrap relative flex w-full items-center justify-between bg-zinc-50 py-2 shadow-dark-mild dark:bg-neutral-700 lg:flex-wrap lg:justify-start lg:py-4">
+            class="flex-no-wrap relative flex w-full items-center justify-between bg-info-300 py-2 shadow-dark-mild dark:bg-neutral-700 lg:flex-wrap lg:justify-start lg:py-4">
             <div class="flex w-full flex-wrap items-center justify-between px-3">
             <!-- Hamburger button for mobile view -->
             <button
@@ -87,8 +87,8 @@
                 class="mb-4 me-5 ms-2 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0"
                 href="#">
                 <img
-                    src="https://tecdn.b-cdn.net/img/logo/te-transparent-noshadows.webp"
-                    style="height: 15px"
+                    src="{{asset('/img/logo.jpg')}}"
+                    style="height: 30px"
                     alt="TE Logo"
                     loading="lazy" />
                 </a>
@@ -137,6 +137,14 @@
                     href="/contacto"
                     data-twe-nav-link-ref
                     >Contacto</a
+                    >
+                </li>
+                <li class="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
+                    <a
+                    class="text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
+                    href="/contacto"
+                    data-twe-nav-link-ref
+                    >FAQ</a
                     >
                 </li>
                 </ul>
@@ -291,9 +299,9 @@
         <!-- Footer -->
             <!-- Footer container -->
         <footer
-        class="bg-zinc-50 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left">
+        class="bg-info-100 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left">
         <div
-        class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
+        class="flex items-center justify-center  border-neutral-800 p-6 dark:border-white/10 lg:justify-between">
         <div class="me-12 hidden lg:block">
             <span>Encuentranos en nuestras redes:</span>
         </div>
@@ -399,54 +407,48 @@
                 Entrenando tus finanzas
             </h6>
             <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+                surgió con la idea de brindar servicios financieros tanto educativos como de asesoría, posibilitando que todos puedan acceder a las inversiones independientemente de su formación, experiencia y capital.
             </p>
             </div>
             <!-- Products section -->
             <div>
             <h6
                 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                Cursos
+                inversiones
             </h6>
             <p class="mb-4">
-                <a href="#!">curso 1</a>
+                <a href="#!">Cursos</a>
             </p>
             <p class="mb-4">
-                <a href="#!">Curso 2</a>
+                <a href="#!">Asesoramiento</a>
             </p>
             <p class="mb-4">
-                <a href="#!">Curso 3</a>
+                <a href="#!">Membresias</a>
             </p>
-            <p>
-                <a href="#!">Curso 4</a>
-            </p>
+
             </div>
             <!-- Useful links section -->
             <div>
             <h6
                 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                Useful links
+                Secciones
             </h6>
             <p class="mb-4">
-                <a href="#!">Pricing</a>
+                <a href="#!">Blog</a>
             </p>
             <p class="mb-4">
-                <a href="#!">Settings</a>
+                <a href="#!">Testimonios</a>
             </p>
             <p class="mb-4">
-                <a href="#!">Orders</a>
+                <a href="#!">Faq</a>
             </p>
-            <p>
-                <a href="#!">Help</a>
-            </p>
+
             </div>
             <!-- Contact section -->
             <div>
             <h6
                 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                Contact
+                Contacto
             </h6>
             <p class="mb-4 flex items-center justify-center md:justify-start">
                 <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -460,7 +462,7 @@
                     d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
                 </svg>
                 </span>
-                New York, NY 10012, US
+                Argentian, Santa Fe, Rosario
             </p>
             <p class="mb-4 flex items-center justify-center md:justify-start">
                 <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -474,7 +476,7 @@
                     d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                 </svg>
                 </span>
-                info@example.com
+                entrenando@tusfinanzas.com
             </p>
             <p class="mb-4 flex items-center justify-center md:justify-start">
                 <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -488,9 +490,9 @@
                     clip-rule="evenodd" />
                 </svg>
                 </span>
-                + 01 234 567 88
+                + 54 314 567 889
             </p>
-            <p class="flex items-center justify-center md:justify-start">
+            {{-- <p class="flex items-center justify-center md:justify-start">
                 <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -503,7 +505,7 @@
                 </svg>
                 </span>
                 + 01 234 567 89
-            </p>
+            </p> --}}
             </div>
         </div>
         </div>
