@@ -24,6 +24,10 @@ Route::get('/contacto', function () {
     return view('sections.contacto');
 });
 
+Route::get('/faq', function () {
+    return view('sections.faq');
+});
+
 Route::get('/contdown/formnovedades', 'App\Http\Controllers\Sectionblades@contdownFormulario')->name('contdown.formulario');
 
 //ADMIN
