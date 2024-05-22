@@ -48,7 +48,7 @@
     </script>
     </head>
     {{-- <body style='background-color: #559AB7;'> --}}
-        <body class="bg-info-200">
+        <body class="bg-info-100">
         <!-- Main navigation container -->
         <nav
             class="flex-no-wrap relative flex w-full items-center justify-between bg-info-300 py-2 shadow-dark-mild dark:bg-neutral-700 lg:flex-wrap lg:justify-start lg:py-4">
@@ -142,7 +142,7 @@
                 <li class="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
                     <a
                     class="text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-                    href="/contacto"
+                    href="/faq"
                     data-twe-nav-link-ref
                     >FAQ</a
                     >
@@ -150,7 +150,7 @@
                 <li class="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
                     <a
                     class="text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-                    href="/contacto"
+                    href="#"
                     data-twe-nav-link-ref
                     >Blog</a
                     >
