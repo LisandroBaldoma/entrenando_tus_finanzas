@@ -109,7 +109,7 @@
                 <li class="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
                     <a
                     class="text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-                    href="#"
+                    href="/membresia"
                     data-twe-nav-link-ref
                     >Membresia</a
                     >
@@ -118,7 +118,7 @@
                 <li class="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
                     <a
                     class="text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-                    href="#"
+                    href="/cursos"
                     data-twe-nav-link-ref
                     >Cursos</a
                     >
@@ -150,7 +150,7 @@
                 <li class="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
                     <a
                     class="text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-                    href="#"
+                    href="/blog"
                     data-twe-nav-link-ref
                     >Blog</a
                     >
@@ -425,7 +425,7 @@
                 inversiones
             </h6>
             <p class="mb-4">
-                <a href="#!">Cursos</a>
+                <a href="/cursos">Cursos</a>
             </p>
             <p class="mb-4">
                 <a href="#!">Asesoramiento</a>
@@ -484,7 +484,7 @@
                     d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                 </svg>
                 </span>
-                entrenando@tusfinanzas.com
+                tusfinanzasentrenando@gmail.com
             </p>
             <p class="mb-4 flex items-center justify-center md:justify-start">
                 <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">

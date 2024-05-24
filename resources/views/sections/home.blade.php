@@ -2,13 +2,6 @@
 
 @section('main')
 
-
-
-
-
-
-
-
       <!-- Container for demo purpose -->
 <div class="container my-24 mx-auto md:px-6">
     <!-- Section: Design Block -->
@@ -128,113 +121,14 @@
   </div>
   <!-- Container for demo purpose -->
 
-  <!-- Container for demo purpose -->
-<div class="container my-24 mx-auto md:px-6">
-    <!-- Section: Design Block -->
-    <section class="mb-32">
-      <!-- Jumbotron -->
-      <div class="container mx-auto text-center lg:text-left xl:px-32">
-        <div class="flex grid items-center lg:grid-cols-2">
-          <div class="mb-12 lg:mb-0">
-            <div
-              class="block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]">
-              {{-- <h3 class="mb-3 text-2xl font-bold">
-                We know how valuable your time is
-              </h3>
-              <h5 class="mb-12 text-lg font-bold text-primary dark:text-primary-400 lg:mb-10 xl:mb-12">
-                Let us answer your questions
-              </h5> --}}
-
-              <p class="mb-4 font-bold">
-                Qué hace un asesor financiero?
-              </p>
-              <p class="mb-6 text-gray-500 dark:text-neutral-300">
-                Un asesor financiero es el intermediario entre el cliente inversor y el ALyC (Agente de Liquidación y Compensación) también conocido como Bróker.
-                Es aquella persona que te guiará a cumplir tus objetivos financieros y que te brindará información y recomendaciones acordes a tu perfil y tus necesidades.
-                <a href="/about">Sobre Mi</a>
-              </p>
-
-              <p class="mb-4 font-bold">
-                Qué significa CNV?
-              </p>
-              <p class="mb-6 text-gray-500 dark:text-neutral-300">
-                La Comisión Nacional de Valores (CNV) es el organismo que controla a los Agentes del Mercado, entre ellos a nosotros los asesores como Agentes Productores.
-                Te recomiendo siempre revisar que quien te ofrezca productos financieros figure inscripto allí.
-                Podés buscarme en el siguiente link con mi apellido: TIBERTI.
-                Link a registros de idóneos:
-                https://www.cnv.gov.ar/SitioWeb/RegistrosPublicos/Agentes
-
-              </p>
-
-
-            </div>
-          </div>
-
-          <div>
-            <img src="{{asset('/img/dudas.jpg')}}"
-              class="w-full rounded-lg shadow-lg dark:shadow-black/20" alt="" />
-          </div>
-        </div>
-      </div>
-      <!-- Jumbotron -->
-    </section>
-    <!-- Section: Design Block -->
-  </div>
-  <!-- Container for demo purpose -->
 
 
 
 
 
 
-  <!-- Background image -->
-    <!-- Container for demo purpose -->
-    <div class="container my-24 mx-auto md:px-6">
-        <!-- Section: Design Block -->
-        <section class="background-radial-gradient mb-32">
-        <style>
-            .background-radial-gradient {
-            background-color: hsl(218, 41%, 15%);
-            background-image: radial-gradient(650px circle at 0% 0%,
-                hsl(218, 41%, 35%) 15%,
-                hsl(218, 41%, 30%) 35%,
-                hsl(218, 41%, 20%) 75%,
-                hsl(218, 41%, 19%) 80%,
-                transparent 100%),
-                radial-gradient(1250px circle at 100% 100%,
-                hsl(218, 41%, 45%) 15%,
-                hsl(218, 41%, 30%) 35%,
-                hsl(218, 41%, 20%) 75%,
-                hsl(218, 41%, 19%) 80%,
-                transparent 100%);
-            }
-        </style>
 
-        <div class="px-6 py-12 text-center md:px-12 lg:text-left">
-            <div class="container mx-auto">
-            <div class="grid items-center gap-12 lg:grid-cols-2">
-                    <div class="mt-12 lg:mt-0">
-                    <h1 class="mb-12 text-5xl font-bold tracking-tight text-[hsl(218,81%,95%)] md:text-6xl xl:text-7xl">
-                        Video de presentacion  <br /><span class="text-[hsl(218,81%,75%)]">Estas preparado para invertir</span>
-                    </h1>
-                    <p class="text-lg text-[hsl(218,81%,95%)]">
-                        Descripcion del video
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Minima officia consequatur adipisci tenetur repudiandae rerum
-                        quos.
-                    </p>
-                    </div>
-                    <div class="mb-12 lg:mb-0">
-                    <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg shadow-lg"
-                        style="padding-top: 56.25%">
-                        <iframe class="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 h-full w-full" width="853" height="480" src="https://www.youtube.com/embed/9VsKr-WRDAg" title="Curso Finanzas Personales - Presentación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-<!-- Container for demo purpose -->
 
 
 
