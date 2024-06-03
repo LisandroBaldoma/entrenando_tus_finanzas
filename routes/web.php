@@ -2,15 +2,32 @@
 
 use App\Http\Controllers\panel\AdminController;
 use App\Http\Controllers\UsuariosController;
-
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('sections.contdown');
+
+
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/membresia', function () {
-    return view('sections.membresia');
+require __DIR__.'/auth.php';
+
+// WEB
+
+Route::get('/', function () {
+    return view('sections.home');
+});
+
+Route::get('/asesoramiento', function () {
+    return view('sections.asesoramiento');
 });
 Route::get('/home', function () {
     return view('sections.home');
@@ -38,8 +55,9 @@ Route::get('/blog', function () {
 
 Route::get('/contdown/formnovedades', 'App\Http\Controllers\Sectionblades@contdownFormulario')->name('contdown.formulario');
 
+
 //ADMIN
 
 // Route::prefix('admin')->group(function(){
-    Route::get('/admin',[AdminController::class, 'home']);
+    // Route::get('/admin',[AdminController::class, 'home']);
 // });

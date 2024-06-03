@@ -1,79 +1,84 @@
-@extends('layout.base')
+@extends('layouts.web.base')
 
 @section('main')
 
-<!-- Container for demo purpose -->
-    <div class="container my-24 mx-auto md:px-6">
-        <!-- Section: Design Block -->
-        <section class="mb-32">
-        <div class="grid gap-4 md:grid-cols-2">
-            <div class="mb-6 md:mb-0">
-            <h2 class="mb-6 text-3xl font-bold">Pregunta Frecuentes</h2>
-
-            <p class="text-neutral-500 dark:text-neutral-300">
-                Didn't find your answer in the FAQ?
-                <a href="#!"
-                class="text-primary transition duration-300 hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600">Contact
-                our sales team</a>.
-            </p>
-            </div>
-
-            <div class="mb-6 md:mb-0">
-            <p class="mb-4 font-bold">Qué hace un asesor financiero?</p>
-            <p class="mb-12 text-neutral-500 dark:text-neutral-300">
-                Un asesor financiero es el intermediario entre el cliente inversor y el ALyC (Agente de Liquidación y Compensación) también conocido como Bróker.
-                Es aquella persona que te guiará a cumplir tus objetivos financieros y que te brindará información y recomendaciones acordes a tu perfil y tus necesidades.
-                <a
-                href="/"
-                class="text-primary transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700"
-                >:link</a
-            </p>
-
-            <p class="mb-4 font-bold">Qué significa CNV?</p>
-            <p class="mb-12 text-neutral-500 dark:text-neutral-300">
-                La Comisión Nacional de Valores (CNV) es el organismo que controla a los Agentes del Mercado, entre ellos a nosotros los asesores como Agentes Productores.
-                Te recomiendo siempre revisar que quien te ofrezca productos financieros figure inscripto allí.
-                Podés buscarme en el siguiente link con mi apellido: TIBERTI.
-                Link a registros de idóneos:
-                <a
-                href="https://www.cnv.gov.ar/SitioWeb/RegistrosPublicos/Agentes"
-                class="text-primary transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700"
-                >:link</a
->
-            </p>
-
-            <p class="mb-4 font-bold">
-                Praesentium voluptatibus temporibus consequatur non aspernatur?
-            </p>
-            <p class="mb-12 text-neutral-500 dark:text-neutral-300">
-                Minima sunt at nulla tenetur, numquam unde quod modi magnam ab
-                deserunt ipsam sint aliquid dolores libero repellendus cupiditate
-                mollitia quidem dolorem.
-            </p>
-            </div>
+<div class="hero overlay inner-page">
+    <img src="images/blob.svg" alt="" class="img-fluid blob">
+    <div class="container">
+      <div class="row align-items-center justify-content-center text-center pt-5">
+        <div class="col-lg-6">
+          <h1 class="heading text-white mb-3" data-aos="fade-up" data-aos-delay="100"></h1>
         </div>
-        </section>
-        <!-- Section: Design Block -->
+      </div>
     </div>
-<!-- Container for demo purpose -->
+  </div>
+
+  {{-- <div class="section">
+    <div class="container article">
+      <div class="row justify-content-center align-items-stretch">
+
+        <article class="col-lg-8 order-lg-2 px-lg-5">
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+          <img src="images/img_1.jpg" alt="Image" class="img-fluid rounded">
+
+          <h3>Even the all-powerful...</h3>
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+
+          <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+
+          <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+
+          <h3>On her way she met a copy</h3>
+          <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          <p>And if she hasn’t been rewritten, then they are still using her.
+          On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. </p>
+
+          <p>But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+
+          <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.A small river named Duden flows by their place and supplies it with the necessary regelialia.And if she hasn’t been rewritten, then they are still using her.</p>
 
 
 
+        </article>
 
+        <div class="col-md-12 col-lg-1 order-lg-1">
+          <div class="share sticky-top">
+            <h3>Share</h3>
+            <ul class="list-unstyled share-article">
+              <li><a href="#"><span class="icon-facebook"></span></a></li>
+              <li><a href="#"><span class="icon-twitter"></span></a></li>
+              <li><a href="#"><span class="icon-pinterest"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-5 mb-lg-0 order-lg-3">
 
+          <div class="mb-4">
+            <a href="https://vimeo.com/342333493" class="video-wrap glightbox">
+              <span class="play-wrap"><span class="icon-play"></span></span>
+              <img src="images/img_1.jpg" alt="Image" class="img-fluid rounded">
+            </a>
+          </div>
 
+          <div class="share floating-block sticky-top">
+
+            <h2 class="mb-3 text-black">Subscribe to Newsletter</h2>
+            <p>Far far away behind the word mountains far from.</p>
+            <form action="#">
+              <input type="email" class="form-control mb-2" placeholder="Enter email">
+              <input type="submit" value="Subscribe" class="btn btn-primary btn-block">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>   --}}
+
+  @include('sections.partial.faqs')
 
 
 @endsection
-
-
-
-
-
-
-
-
-
-
-
-
