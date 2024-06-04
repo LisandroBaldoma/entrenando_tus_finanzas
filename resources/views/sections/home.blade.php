@@ -6,7 +6,7 @@
     <div class="hero overlay">
         <img src="images/blob.svg" alt="" class="img-fluid blob">
 
-             @include('sections.partial.SOBREMI')
+             @include('sections.partial.sobremi')
 
         </div>
 

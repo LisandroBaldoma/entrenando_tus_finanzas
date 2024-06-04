@@ -39,7 +39,7 @@ Route::get('/about', function () {
 
 Route::get('/contacto', function () {
     return view('sections.contacto');
-});
+})->name('contacto');
 
 Route::get('/faq', function () {
     return view('sections.faq');

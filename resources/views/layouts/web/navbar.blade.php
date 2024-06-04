@@ -30,7 +30,7 @@
                             <li><a href="/about">Sobre Mí</a></li>
                             <li><a href="/faq">Faqs</a></li>
                             <li><a href="/blog">Blog</a></li>
-                            <li><a href="/contacto">Contacto</a></li>
+                            <li><a href="{{ route('contacto') }}">Contacto</a></li>
                             <li><a href="/login">Login</a></li>
 
                         </ul>

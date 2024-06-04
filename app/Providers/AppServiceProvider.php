@@ -11,12 +11,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        /**
-         * EN PRODUCCION DESCOMENTAR O ENCONTRAR LA FORMA DE QUE SE SUBA Y SE USE EN PRODUCCION
-         * $this->app->bind('path.public', function(){
-         *   return base_path('public_html')
-         * })
-         */
+
+         // EN PRODUCCION DESCOMENTAR O ENCONTRAR LA FORMA DE QUE SE SUBA Y SE USE EN PRODUCCION
+        //   $this->app->bind('path.public', function()
+        //   {
+        //     return base_path('public_html');
+        //   });
+
 
     }
 
