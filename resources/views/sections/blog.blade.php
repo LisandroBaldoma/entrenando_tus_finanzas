@@ -1,48 +1,114 @@
-@extends('layout.base')
+@extends('layouts.web.base')
 
 @section('main')
 
 
-<!-- Container for demo purpose -->
-<div class="container my-24 mx-auto md:px-6">
-    <!-- Section: Design Block -->
-    <section class="mb-32">
-      <img src="{{asset('/img/imagenesfinanzas1.jpg')}}"
-        class="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20" alt="image" />
 
-      <div class="mb-6 flex items-center">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (23).jpg" class="mr-2 h-8 rounded-full" alt="avatar"
-          loading="lazy" />
-        <div>
-          <span> Published <u>15.07.2020</u> by </span>
-          <a href="#!" class="font-medium">Anna Maria Doe</a>
+<div class="hero overlay inner-page">
+    <img src="images/blob.svg" alt="" class="img-fluid blob">
+    <div class="container">
+      <div class="row align-items-center justify-content-center text-center pt-5">
+        <div class="col-lg-6">
+          <h1 class="heading text-white mb-3" data-aos="fade-up" >Blog / News</h1>
         </div>
       </div>
-
-      <h1 class="mb-6 text-3xl font-bold">
-        An intriguing title for an interesting article
-      </h1>
-
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
-        harum tempore cupiditate asperiores provident, itaque, quo ex iusto
-        rerum voluptatum delectus corporis quisquam maxime a ipsam nisi
-        sapiente qui optio! Dignissimos harum quod culpa officiis suscipit
-        soluta labore! Expedita quas, nesciunt similique autem, sunt,
-        doloribus pariatur maxime qui sint id enim. Placeat, maxime labore.
-        Dolores ex provident ipsa impedit, omnis magni earum. Sed fuga ex
-        ducimus consequatur corporis, architecto nesciunt vitae ipsum
-        consequuntur perspiciatis nulla esse voluptatem quos dolorum delectus
-        similique eum vero in est velit quasi pariatur blanditiis incidunt
-        quam.
-      </p>
-    </section>
-    <!-- Section: Design Block -->
+    </div>
   </div>
-  <!-- Container for demo purpose -->
+
+  @include('sections.partial.blog')
+
+  {{-- <div class="section sec-news">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="card post-entry">
+            <a href="single.html"><img src="images/img-1.jpg" class="card-img-top" alt="Image"></a>
+            <div class="card-body">
+              <div><span class="text-uppercase font-weight-bold date">Jan 20, 2021</span></div>
+              <h5 class="card-title"><a href="single.html">Behind the word mountains</a></h5>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              <p class="mt-5 mb-0"><a href="#">Read more</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card post-entry">
+            <a href="single.html"><img src="images/img-2.jpg" class="card-img-top" alt="Image"></a>
+            <div class="card-body">
+              <div><span class="text-uppercase font-weight-bold date">Jan 20, 2021</span></div>
+              <h5 class="card-title"><a href="single.html">Behind the word mountains</a></h5>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              <p class="mt-5 mb-0"><a href="#">Read more</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card post-entry">
+            <a href="single.html"><img src="images/img-3.jpg" class="card-img-top" alt="Image"></a>
+            <div class="card-body">
+              <div><span class="text-uppercase font-weight-bold date">Jan 20, 2021</span></div>
+              <h5 class="card-title"><a href="single.html">Behind the word mountains</a></h5>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              <p class="mt-5 mb-0"><a href="single.html">Read more</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="card post-entry">
+            <a href="single.html"><img src="images/img-1.jpg" class="card-img-top" alt="Image"></a>
+            <div class="card-body">
+              <div><span class="text-uppercase font-weight-bold date">Jan 20, 2021</span></div>
+              <h5 class="card-title"><a href="single.html">Behind the word mountains</a></h5>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              <p class="mt-5 mb-0"><a href="#">Read more</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card post-entry">
+            <a href="single.html"><img src="images/img-2.jpg" class="card-img-top" alt="Image"></a>
+            <div class="card-body">
+              <div><span class="text-uppercase font-weight-bold date">Jan 20, 2021</span></div>
+              <h5 class="card-title"><a href="single.html">Behind the word mountains</a></h5>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              <p class="mt-5 mb-0"><a href="#">Read more</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card post-entry">
+            <a href="single.html"><img src="images/img-3.jpg" class="card-img-top" alt="Image"></a>
+            <div class="card-body">
+              <div><span class="text-uppercase font-weight-bold date">Jan 20, 2021</span></div>
+              <h5 class="card-title"><a href="single.html">Behind the word mountains</a></h5>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              <p class="mt-5 mb-0"><a href="single.html">Read more</a></p>
+            </div>
+          </div>
+        </div>
 
 
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 text-center py-5">
+          <div class="custom-navigation">
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <span>...</span>
+            <a href="#">5</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div> --}}
 
 @endsection
-
-
