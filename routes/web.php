@@ -3,6 +3,7 @@
 use App\Http\Controllers\panel\AdminController;
 use App\Http\Controllers\UsuariosController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\FormularioController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -24,18 +25,16 @@ require __DIR__.'/auth.php';
 
 Route::get('/', function () {
     return view('sections.home');
-});
+})->name('home');
 
 Route::get('/asesoramiento', function () {
     return view('sections.asesoramiento');
-});
-Route::get('/home', function () {
-    return view('sections.home');
-});
+})->name('asesoramiento');
+
 
 Route::get('/about', function () {
     return view('sections.about');
-});
+})->name('about');
 
 Route::get('/contacto', function () {
     return view('sections.contacto');
@@ -43,18 +42,18 @@ Route::get('/contacto', function () {
 
 Route::get('/faq', function () {
     return view('sections.faq');
-});
+})->name('faq');
 
 Route::get('/cursos', function () {
     return view('sections.cursos');
-});
+})->name('cursos');
 
 Route::get('/blog', function () {
     return view('sections.blog');
-});
+})->name('blog');
 
-Route::get('/contdown/formnovedades', 'App\Http\Controllers\Sectionblades@contdownFormulario')->name('contdown.formulario');
-
+// Route::get('/contdown/formnovedades', 'App\Http\Controllers\Sectionblades@contdownFormulario')->name('contdown.formulario');
+Route::post('/contdown/formnovedades', [FormularioController::class, 'create'])->name('contdown.formulario');
 
 //ADMIN
 

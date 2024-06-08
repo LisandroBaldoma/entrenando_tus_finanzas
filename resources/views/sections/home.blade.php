@@ -35,6 +35,8 @@
 
     @include('sections.partial.blog')
 
+    
+
 
 
 @endsection

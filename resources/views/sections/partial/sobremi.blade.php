@@ -8,18 +8,18 @@
             La relación con las FINANZAS es que sin dudas estas al igual que el cuerpo también deben ENTRENARSE. La única manera de hacer crecer un músculo es ejercitándolo, si no, se atrofia. Lo mismo sucede con nuestro dinero, si no lo entrenamos (movemos) y no lo ponemos a funcionar (circular) se atrofiará (dejará de crecer).
             Considero también que existe una gran carencia en la educación financiera en las aulas escolares, facultades e incluso en el hogar mismo por lo cual también existen diversos preconceptos (o conceptos erróneos) sobre el uso correcto del dinero y las inversiones.
             Al estar todos, sin excepciones de profesión, labor, ni oficio involucrados en su uso, considero que educarse al respecto es una cuestión FUNDAMENTAL para tener una buena salud financiera.
-            Es por ello que te invito a ENTRENAR TUS FINANZAS conmigo, ¿empezamos?
+            Es por ello que te invito a ENTRENAR TUS FINANZAS conmigo, <a href="/register" class="text-light fs-3 fw-bold text-body-light text-decoration-underline">¿empezamos?</a>
+            {{-- <a href="/register"><span class="text-light fs-3 fw-bold text-body-light"></span></a> --}}
 
             </p>
             <div class="align-items-center mb-5 mm" data-aos="fade-up" data-aos-delay="200">
-                {{-- <a href="contact.html" class="btn btn-outline-white-reverse me-4">Contactanos</a> --}}
                 <button type="button"
                 class="btn btn-outline-white-reverse me-4"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
                 data-bs-whatever="@fat">
                 Contactanos</button>
-                <a href="https://www.youtube.com/watch?v=Mb1zrW_zra4" class="text-white glightbox">Video</a>
+                <a href="https://www.youtube.com/watch?v=Mb1zrW_zra4" class="btn btn-outline-white me-4">Presentacion</a>
             </div>
         </div>
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
@@ -30,6 +30,5 @@
     </div>
 </div>
 
-@include('sections.partial.formularios.formContactoModal')
 
 

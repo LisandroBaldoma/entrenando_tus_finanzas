@@ -13,12 +13,11 @@
             <div class="testimonial-slider" id="testimonial-slider">
                 <div class="item">
                     <div class="testimonial-half d-lg-flex bg-white">
-                        <div class="img" style="background-image: url('images/img-4.jpg')">
-
+                        <div class="img" style="background-image: url('img/cursos1.png')">
                         </div>
                         <div class="text">
                             <blockquote>
-                                <p class="fw-bold fs-2">Inicial</p>
+                                <p class="fw-bold fs-2">Finanzas Personales</p>
                             </blockquote>
                             <div class="author">
                                 <blockquote>
@@ -32,12 +31,11 @@
 
                 <div class="item">
                     <div class="testimonial-half d-lg-flex bg-white">
-                        <div class="img" style="background-image: url('images/img-3.jpg')">
-
+                        <div class="img" style="background-image: url('img/cursos2.png')">
                         </div>
                         <div class="text">
                             <blockquote>
-                                <p class="fw-bold fs-2">Intermedio</p>
+                                <p class="fw-bold fs-2">Dolar MEP</p>
                             </blockquote>
                             <div class="author">
                                 <blockquote>
@@ -51,12 +49,13 @@
 
                 <div class="item">
                     <div class="testimonial-half d-lg-flex bg-white">
-                        <div class="img" style="background-image: url('images/img-2.jpg')">
 
-                        </div>
+                        {{-- <div class="img" style="background-image: url('images/img-2.jpg')"> --}}
+                            {{-- <iframe width="560" height="415" src="https://www.youtube.com/embed/yIixlNEM-3I?si=YAt3VYOLIo0pOJNd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                        {{-- </div> --}}
                         <div class="text">
                             <blockquote>
-                                <p class="fw-bold fs-2">Avanzado</p>
+                                <p class="fw-bold fs-2">Obligaciones Negociables</p>
                             </blockquote>
                             <div class="author">
                                 <blockquote>

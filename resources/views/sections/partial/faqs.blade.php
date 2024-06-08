@@ -20,7 +20,9 @@
         <div id="post-slider" class="post-slider">
             <div class="item">
                 <a href="case-study.html" class="card d-block">
-                    <img src="images/img-1.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Qué hace un asesor financiero?</h5>
                         <p>Un asesor financiero es quien te guiará a cumplir tus objetivos financieros y que te brindará información y recomendaciones acordes a tu perfil y tus necesidades.
@@ -31,7 +33,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-2.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Quién regula a los asesores financieros? </h5>
                         <p>La Comisión Nacional de Valores (CNV) es el organismo que controla a los Agentes del Mercado, entre ellos a nosotros los asesores como Agentes Productores.
@@ -44,7 +48,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-3.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Qué riesgos hay al invertir en Bolsa?</h5>
                         <p>Todos los instrumentos que operes y tengas en tu cartera de inversión están bajo el resguardo de Caja de Valores S.A, sociedad encargada del registro y custodia de los instrumentos existentes en la Bolsa.
@@ -56,7 +62,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-4.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Vos administras dinero?</h5>
                         <p>Los únicos cobros que realizo son las reuniones personalizadas, cursos, talleres y membresía.
@@ -67,7 +75,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-1.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Dónde va mi dinero?</h5>
                         <p>El dinero se opera mediante Sociedades de Bolsa. Los mismos son Agentes de Liquidación y Compensación (ALyC) también llamados Brókers.
@@ -80,7 +90,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card d-block">
-                    <img src="images/img-1.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Puedo perder mi dinero?</h5>
                         <p>El único motivo por el que podrías perder TODO tu dinero (o parte de él) sería que dejes tu dinero sin invertir y la Sociedad de Bolsa quiebre. Mismo riesgo que sucedería con tu dinero en el banco. Las Sociedades de Bolsa no son más que entidades financieras también.
@@ -92,7 +104,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-3.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Ya tengo cuenta en un bróker, me pueden asesorar igual?</h5>
                         <p>Si, comunícate a nuestro WhatsApp para indicarte cómo realizar el cambio.
@@ -102,7 +116,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-4.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Tiene costo la apertura de cuenta en una Sociedad de Bolsa?</h5>
                         <p>No tiene costo de apertura ni de mantenimiento. Tampoco tiene cargos por enviar o recibir dinero. La Sociedad de Bolsa sólo te descontará la comisión que ronda el 1% al realizar alguna operación de compra o venta.
@@ -112,7 +128,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-1.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Qué pasa si no fondeo (ingreso) dinero durante un tiempo?</h5>
                         <p>Nada. Tus inversiones seguirán allí al igual que el dinero que podrías haber dejado sin invertir.</p>
@@ -121,7 +139,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-1.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Qué pasa si no fondeo (ingreso) dinero durante un tiempo?</h5>
                         <p>Nada. Tus inversiones seguirán allí al igual que el dinero que podrías haber dejado sin invertir.</p>
@@ -130,7 +150,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-1.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Cómo ingreso y retiro dinero a la Sociedad de Bolsa?</h5>
                         <p>Únicamente por transferencia bancaria desde y hacia cuentas al mismo nombre que el titular de la cuenta de la Sociedad de Bolsa.
@@ -141,7 +163,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-1.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Puedo tener cuentas en varios brokers?</h5>
                         <p>Si. Pero solamente una en cada una.</p>
@@ -150,7 +174,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-1.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Puede haber cotitulares en una cuenta?</h5>
                         <p>Si, es posible en caso de querer hacerlo.</p>
@@ -159,7 +185,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-1.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Qué pasa si el titular de la cuenta fallece?</h5>
                         <p>Las inversiones, al igual que el resto de los bienes, ingresan a Sucesión Indivisa hasta tanto se realice la Declaratoria de Herederos.</p>
@@ -168,7 +196,9 @@
             </div>
             <div class="item">
                 <a href="case-study.html" class="card">
-                    <img src="images/img-1.jpg" class="card-img-top" alt="Image">
+                    <div class="text-center">
+                        <img src="{{asset('/img/logo.jpg')}}" class="text-center card-img-top figure-img img-fluid rounded rounded-circle w-75" alt="Image">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Puedo operar en algo distinto a lo recomendado?</h5>
                         <p>El dinero es del cliente y es él quien tiene la última palabra y dispone qué realiza con el mismo.

@@ -45,10 +45,10 @@
 
 					<h3>Redes Sociales</h3>
 					<ul class="list-unstyled social">
-						<li><a href="https://www.instagram.com/p/Cxd7eJgpDEK/"><span class="icon-instagram"></span></a></li>
-						<li><a href="https://www.facebook.com/entrenandotusfinanzas/"><span class="icon-facebook"></span></a></li>
-						<li><a href="https://www.linkedin.com/in/franco-tiberti/"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="https://www.youtube.com/channel/UCRJumapIM0hnt4v-YgmypdQ"><span class="icon-youtube"></span></a></li>
+						<li><a href="https://www.instagram.com/p/Cxd7eJgpDEK/" target="_blank"><span class="icon-instagram"></span></a></li>
+						<li><a href="https://www.facebook.com/entrenandotusfinanzas/" target="_blank"><span class="icon-facebook"></span></a></li>
+						<li><a href="https://www.linkedin.com/in/franco-tiberti/" target="_blank"><span class="icon-linkedin"></span></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCRJumapIM0hnt4v-YgmypdQ" target="_blank"><span class="icon-youtube"></span></a></li>
 
 					</ul>
 				</div> <!-- /.widget -->

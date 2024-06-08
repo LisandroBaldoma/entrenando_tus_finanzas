@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-8 text-center ">
                         <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                            <li class="active"><a href="/home">Home</a></li>
+                            <li class="active"><a href="/">Home</a></li>
                             <li class="has-children">
                                 <a href="/asesoramiento">Asesoramiento</a>
                                 <ul class="dropdown">
@@ -31,7 +31,7 @@
                             <li><a href="/faq">Faqs</a></li>
                             <li><a href="/blog">Blog</a></li>
                             <li><a href="{{ route('contacto') }}">Contacto</a></li>
-                            <li><a href="/login">Login</a></li>
+                            <li><a href="/login"><button type="button" class="btn btn-outline-light">Clientes</button></a></li>
 
                         </ul>
                     </div>
