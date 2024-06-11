@@ -13,6 +13,16 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+Route::get('/dashboard/cursos', function () {
+    return view('cursos');
+})->middleware(['auth', 'verified'])->name('dashboard.cursos');
+
+// Route::get('/dashboard/formularios', function () {
+//     return view('formularios');
+// })->middleware(['auth', 'verified'])->name('dashboard.formularios');
+
+Route::get('/dashboard/formularios', [FormularioController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard.formularios');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
@@ -57,6 +67,6 @@ Route::post('/contdown/formnovedades', [FormularioController::class, 'create'])-
 
 //ADMIN
 
-// Route::prefix('admin')->group(function(){
-    // Route::get('/admin',[AdminController::class, 'home']);
-// });
+Route::prefix('admin')->group(function(){
+    Route::get('/admin',[AdminController::class, 'home']);
+});

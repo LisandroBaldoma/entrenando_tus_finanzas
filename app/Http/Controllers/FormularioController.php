@@ -13,7 +13,71 @@ class FormularioController extends Controller
      */
     public function index()
     {
-        //
+        // info('GET DATA TABLE');
+
+        if (request()->ajax()) {
+            info('GET DATA TABLE AJAX');
+            info(request()->all());
+
+            $filtrados = 0;
+
+            $query = Formulario::query();
+
+            // info('formulraios' .json_encode($dataForm));
+
+            $filtrados = $query->toBase()->getCountForPagination();
+
+            if (request('order'))
+            {
+                $columnIndex = request('order')[0]['column'];
+                $columnName = request('columns')[$columnIndex]['name'];
+
+                $query->orderBy($columnName, request('order')[0]['dir']);
+            }
+
+            if (request('search') && request('search.value') != '')
+            {
+                $query->where(function ($q)
+                {
+                    $q->where("name", 'LIKE', '%' . request('search.value') . '%')
+                        ->orWhere("lastName", 'LIKE', '%' . request('search.value') . '%')
+                        ->orWhere("tipo", 'LIKE', '%' . request('search.value') . '%');
+
+                });
+            }
+            // if (request('start') && request('start') != 0)
+            // {
+            //     $query->offset(request('start'));
+            // }
+
+            // if (request('length') && request('length') != 0)
+            // {
+            //     $query->limit(request('length'));
+            // }
+            // if (request('start') && request('start') != 0)
+            // {
+            //     $query->offset(request('start'));
+            // }
+
+            // if (request('length') && request('length') != 0)
+            // {
+            //     $query->limit(request('length'));
+            // }
+
+            $dataForm = $query->get();
+
+            $data ['draw'] = request('draw');
+            $data ['recordsTotal'] = $query->toBase()->getCountForPagination();
+            $data ['recordsFiltered'] = $filtrados;
+            $data ['data'] = json_decode($dataForm);
+
+            return $data;
+        }
+
+
+        return view('formularios');
+
+
     }
 
     /**

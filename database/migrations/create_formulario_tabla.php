@@ -24,7 +24,8 @@ return new class extends Migration
             $table->double('inversion')->nullable();
             $table->string('recomendacion')->nullable();
             $table->string('tipo');
-            $table->timestamps();
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent();
 
             $table->primary('id');
 
