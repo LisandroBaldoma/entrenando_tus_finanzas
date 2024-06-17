@@ -17,6 +17,11 @@ Route::get('/dashboard/cursos', function () {
     return view('cursos');
 })->middleware(['auth', 'verified'])->name('dashboard.cursos');
 
+Route::get('/dashboard/cursos/videos', function () {
+    return view('videos');
+})->middleware(['auth', 'verified'])->name('dashboard.videos');
+
+
 // Route::get('/dashboard/formularios', function () {
 //     return view('formularios');
 // })->middleware(['auth', 'verified'])->name('dashboard.formularios');
@@ -67,6 +72,6 @@ Route::post('/contdown/formnovedades', [FormularioController::class, 'create'])-
 
 //ADMIN
 
-Route::prefix('admin')->group(function(){
+// Route::prefix('admin')->group(function(){
     Route::get('/admin',[AdminController::class, 'home']);
-});
+// });

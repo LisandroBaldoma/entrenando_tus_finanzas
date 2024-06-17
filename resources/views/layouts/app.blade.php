@@ -25,6 +25,7 @@
         <!-- DataTable -->
         <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css"/>
 
+
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
@@ -51,3 +52,5 @@
 
  <!-- DataTable -->
 <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"> </script>
+
+
