@@ -18,6 +18,9 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            backgroundImage: {
+                'card-curso': "url('/public/img/imagenesfinanzas1.jpg')"
+            },
         },
     },
 

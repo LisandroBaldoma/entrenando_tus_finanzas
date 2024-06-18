@@ -4,22 +4,29 @@ use App\Http\Controllers\panel\AdminController;
 use App\Http\Controllers\UsuariosController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FormularioController;
+use App\Http\Controllers\CursoController;
 use Illuminate\Support\Facades\Route;
 
-
+use Illuminate\Http\Request;
 
 
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/dashboard/cursos', function () {
-    return view('cursos');
-})->middleware(['auth', 'verified'])->name('dashboard.cursos');
+Route::resource('/dashboard/cursos', CursoController::class)->middleware(['auth', 'verified']);
 
-Route::get('/dashboard/cursos/videos', function () {
-    return view('videos');
-})->middleware(['auth', 'verified'])->name('dashboard.videos');
+// Route::get('/dashboard/cursos', function () {
+
+//     return view('cursos');
+// })->middleware(['auth', 'verified'])->name('dashboard.cursos');
+
+// Route::get('/dashboard/cursos/{curso}', [CursoController::class, 'show'])->middleware(['auth', 'verified'])->name('curso.detalle');
+
+
+// Route::get('/dashboard/cursos/videos', function () {
+//     return view('videos');
+// })->middleware(['auth', 'verified'])->name('dashboard.videos');
 
 
 // Route::get('/dashboard/formularios', function () {

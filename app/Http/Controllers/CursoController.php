@@ -13,7 +13,13 @@ class CursoController extends Controller
      */
     public function index()
     {
-        //
+       $cursos = Curso::with('videos')->get();
+
+       info('CURSOS' .json_encode($cursos));
+
+    //    dd('CURSOS');
+
+        return view('cursos.cursos', ['cursos' => $cursos]);
     }
 
     /**
@@ -37,7 +43,13 @@ class CursoController extends Controller
      */
     public function show(Curso $curso)
     {
-        //
+        // info('curso request '.$curso);
+
+        // $cursoData = Curso::where('id', $curso->id)->with('videos')->first();
+
+        // info('curso data '.json_encode($cursoData));
+
+         return view('cursos.curso', ['curso' => $curso]);
     }
 
     /**
