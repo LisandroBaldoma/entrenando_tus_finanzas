@@ -16,6 +16,8 @@ Route::get('/dashboard', function () {
 
 Route::resource('/dashboard/cursos', CursoController::class)->middleware(['auth', 'verified']);
 
+// Route::resource('/dashboard/cursos/admin', CursoController::class)->middleware(['auth', 'verified']);
+
 // Route::get('/dashboard/cursos', function () {
 
 //     return view('cursos');

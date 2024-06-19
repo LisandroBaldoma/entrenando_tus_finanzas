@@ -3,7 +3,7 @@
 @section('main')
 
     {{-- HERO SECTION --}}
-    <div class="hero overlay">
+    <div class="hero overlay" style="height: auto">
         <img src="images/blob.svg" alt="" class="img-fluid blob">
 
              @include('sections.partial.sobremi')
@@ -35,7 +35,7 @@
 
     @include('sections.partial.blog')
 
-    
+
 
 
 

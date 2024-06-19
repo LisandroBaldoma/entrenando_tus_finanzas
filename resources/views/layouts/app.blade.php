@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
+        
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- bootstrap -->
@@ -32,6 +33,7 @@
         <script src="https://cdn.tailwindcss.com"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
 
     </head>
     <body class="font-sans antialiased">
@@ -57,5 +59,7 @@
 
  <!-- DataTable -->
 <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"> </script>
+
+
 
 
