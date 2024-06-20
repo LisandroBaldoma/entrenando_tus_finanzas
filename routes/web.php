@@ -28,25 +28,6 @@ Route::resource('/dashboard/clientes', ClienteController::class)->middleware(['a
 
 
 
-// Route::resource('/dashboard/cursos/admin', CursoController::class)->middleware(['auth', 'verified']);
-
-// Route::get('/dashboard/cursos', function () {
-
-//     return view('cursos');
-// })->middleware(['auth', 'verified'])->name('dashboard.cursos');
-
-// Route::get('/dashboard/cursos/{curso}', [CursoController::class, 'show'])->middleware(['auth', 'verified'])->name('curso.detalle');
-
-
-// Route::get('/dashboard/cursos/videos', function () {
-//     return view('videos');
-// })->middleware(['auth', 'verified'])->name('dashboard.videos');
-
-
-// Route::get('/dashboard/formularios', function () {
-//     return view('formularios');
-// })->middleware(['auth', 'verified'])->name('dashboard.formularios');
-
 Route::get('/dashboard/formularios', [FormularioController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard.formularios');
 
 Route::middleware('auth')->group(function () {
