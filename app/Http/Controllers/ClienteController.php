@@ -6,14 +6,17 @@ use App\Models\Curso;
 use App\Http\Requests\StoreCursoRequest;
 use App\Http\Requests\UpdateCursoRequest;
 
-class CursoController extends Controller
+class ClienteController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('admin.cursos');
+
+        info('CURSOS');
+
+        return view('clientes.clientes');
     }
 
     /**
@@ -37,7 +40,13 @@ class CursoController extends Controller
      */
     public function show(Curso $curso)
     {
+        // info('curso request '.$curso);
 
+        // $cursoData = Curso::where('id', $curso->id)->with('videos')->first();
+
+        // info('curso data '.json_encode($cursoData));
+
+         return view('cursos.curso', ['curso' => $curso]);
     }
 
     /**

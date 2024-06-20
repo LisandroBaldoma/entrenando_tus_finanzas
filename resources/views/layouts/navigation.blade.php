@@ -13,11 +13,15 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                        {{ __('Dashboard') }}
+                    </x-nav-link>
+
+                    <x-nav-link :href="url('dashboard/clientes')" :active="request()->routeIs('dashboard.clientes')">
                         {{ __('Clientes') }}
                     </x-nav-link>
 
-                    <x-nav-link :href="url('dashboard/cursos')" :active="request()->routeIs('dashboard.cursos')">
-                        {{ __('Cursos') }}
+                    <x-nav-link :href="url('usuario/cursos')" :active="request()->routeIs('dashboard.cursos')">
+                        {{ __('Vista usuario') }}
                     </x-nav-link>
                     {{-- <x-nav-link :href="route('dashboard.formularios')" :active="request()->routeIs('dashboard.formularios')">
                         {{ __('Formularios') }}
@@ -37,7 +41,7 @@
                             </x-slot>
 
                             <x-slot name="content">
-                                <x-dropdown-link :href="url('dashboard/cursos/admin')">
+                                <x-dropdown-link :href="url('dashboard/cursos')">
                                     {{ __('Cursos') }}
                                 </x-dropdown-link>
 

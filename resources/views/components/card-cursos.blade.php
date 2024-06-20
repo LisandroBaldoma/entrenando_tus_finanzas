@@ -46,7 +46,7 @@
 
                         <div class="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
 
-                            <a href="{{action([App\Http\Controllers\CursoController::class, 'show'], $curso)}}">
+                            <a href="{{action([App\Http\Controllers\CursoControllerUser::class, 'show'], $curso)}}">
 
                                 <img class="rounded-2xl text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center" src="{{asset('/img/imagenesfinanzas2.jpg')}}" alt="img-card">
 

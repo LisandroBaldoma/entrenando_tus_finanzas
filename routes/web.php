@@ -5,6 +5,11 @@ use App\Http\Controllers\UsuariosController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FormularioController;
 use App\Http\Controllers\CursoController;
+use App\Http\Controllers\ClienteController;
+use App\Http\Controllers\CursoControllerUser;
+
+use App\Models\Curso;
+
 use Illuminate\Support\Facades\Route;
 
 use Illuminate\Http\Request;
@@ -14,7 +19,14 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+
+Route::resource('/usuario/cursos', CursoControllerUser::class)->middleware(['auth', 'verified']);
+
 Route::resource('/dashboard/cursos', CursoController::class)->middleware(['auth', 'verified']);
+
+Route::resource('/dashboard/clientes', ClienteController::class)->middleware(['auth', 'verified']);
+
+
 
 // Route::resource('/dashboard/cursos/admin', CursoController::class)->middleware(['auth', 'verified']);
 
