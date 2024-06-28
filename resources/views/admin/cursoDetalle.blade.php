@@ -23,25 +23,16 @@
         </div>
     </div>
 
-    <div class="py-10">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900 dark:text-gray-100">
+    <div role="status" class="space-y-8 md:space-y-0 md:space-x-8 rtl:space-x-reverse md:flex md:items-center">
 
-
-                    <h1>DETALLE DE LOS CURSO CON TODOS LOS CAPITULOS/VIDEOS</h1>
                     @foreach ($curso->videos as $video)
-                         
+
                         <x-curso-video-detalle :$video>
 
                         </x-curso-video-detalle>
 
                     @endforeach
 
-
-                </div>
-            </div>
-        </div>
     </div>
 
 

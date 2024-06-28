@@ -4,7 +4,7 @@
         <div class="row mb-5">
             <div class="col-lg-5 mx-auto text-center ">
                 <h2 class="heading text-primary mb-3" data-aos="fade-up" data-aos-delay="0">Preguntas Frecuentes</h2>
-                <p class="mb-4" data-aos="fade-up" data-aos-delay="100">Tienes alguna duda, respondemos tus preguntas, resolvemos las dudas que tengas, estas son algunas de las preguntas que nuestros clientes nos hacen.
+                <p class="mb-4" data-aos="fade-up" data-aos-delay="100">Estas son algunas de las preguntas que nuestros clientes nos hacen:
                     </p>
 
                 <div id="post-slider-nav" data-aos="fade-up" data-aos-delay="200">

@@ -154,7 +154,7 @@ class CursoController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.cursoCreate');
     }
 
     /**
@@ -162,7 +162,8 @@ class CursoController extends Controller
      */
     public function store(StoreCursoRequest $request)
     {
-        //
+        info('METODO STORE CURSO CONTROLLER');
+        info($request);
     }
 
     /**

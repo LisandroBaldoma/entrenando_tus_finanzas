@@ -27,13 +27,18 @@
         />
 
 
+        <link href="//vjs.zencdn.net/8.3.0/video-js.min.css" rel="stylesheet">
+
+
         <link
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
         rel="stylesheet" />
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/tw-elements/css/tw-elements.min.css" />
-    <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+
+        {{-- <script src="https://cdn.tailwindcss.com/3.3.0"></script> --}}
+
     <script>
         tailwind.config = {
             darkMode: "class",
@@ -49,6 +54,9 @@
             },
         };
     </script>
+
+
+
 
 
     </head>
@@ -92,6 +100,8 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"
         ></script>
 
+
+        <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
 
 
 

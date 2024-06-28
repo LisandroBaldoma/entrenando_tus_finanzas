@@ -29,10 +29,11 @@
                             </li>
                             <li><a href="/cursos">Cursos</a></li>
                             <li><a href="/about">Sobre Mí</a></li>
-                            <li><a href="/faq">Faqs</a></li>
+                            <li><a href="/faq">FAQs</a></li>
                             <li><a href="/blog">Blog</a></li>
                             <li><a href="{{ route('contacto') }}">Contacto</a></li>
-                            <li><a href="/login"><button type="button" class="btn btn-outline-light">Clientes</button></a></li>
+                            {{-- <li><a href="/login"><button type="button" class="btn btn-outline-light">Clientes</button></a></li> --}}
+                            <li><a href="/login">Clientes</a></li>
 
                         </ul>
                     </div>
@@ -43,7 +44,7 @@
 
                         <a href="#" class="call-us d-flex align-items-center">
                             <span class="icon-phone"></span>
-                            <span>( 0341 ) 156-864621</span>
+                            <span>( 0341 ) 3417 - 459509</span>
                         </a>
                         {{-- <button class="btn btn-primary me-md-2 call-us" type="button">Button</button> --}}
                     </div>
